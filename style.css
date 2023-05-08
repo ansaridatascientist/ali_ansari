@@ -1,0 +1,75 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.grid-container {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.blue {
+    background-color: #5353F5;
+    background-image: radial-gradient(#BDFB9C 1px, transparent 0);
+    background-size: 5px 5px;
+    background-position: -19px -19px;
+}
+
+.yellow {
+    background-color: #BDFB9C;
+    background-image: radial-gradient(#5353F5 1px, transparent 0);
+    background-size: 5px 5px;
+    background-position: -19px -19px;
+}
+
+.profile {
+    height: 200px;
+    width: 200px;
+    margin-left: -100px;
+    margin-top: 25%;
+    border: 20px solid #BDFB9C;
+    padding: 0;
+    box-shadow: 0px 0px 0px 20px #5353F5;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.name {
+    font-size: 40px;
+    margin: 10%;
+    color: #BDFB9C;
+    background-color: #5353F5;
+    width: 170px;
+}
+
+h1 {
+    color: #BDFB9C;
+    margin: 20%;
+    font-size: 60px;
+    line-height: 60%;
+}
+
+.dot {
+    color: #BDE9E7;
+    font-size: 100px;
+}
+
+.para1 {
+    color: #BDE9E7;
+    font-size: 20px;
+    margin-left: 20%;
+    margin-top: -16%;
+    font-weight:lighter ;
+}
+
+.para2 {
+    color: #BDFB9C;
+    font-size: 15px;
+    height: 200px;
+    width: 500px;
+    margin-left: 20%;
+    display:flex;
+    padding: 0px;
+}
