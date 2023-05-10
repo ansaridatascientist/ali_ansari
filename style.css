@@ -194,16 +194,16 @@ h1 {
         margin-left: 15%;
         margin-top: -15%;
         font-weight:lighter;
-        width: 400px;
+        width: 300px;
     }
 
     .para2 {
         color: #BDFB9C;
         font-size: 20px;
         height: 200px;
-        width: 400px;
+        width: 300px;
         margin-left: 15%;
-        display: flex;
+        display: inline-block;
         gap: 25px;
         margin-bottom: 25px;
     }
