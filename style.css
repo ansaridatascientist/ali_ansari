@@ -12,16 +12,16 @@ body {
 
 .blue {
     background-color: #5353F5;
-    background-image: radial-gradient(#BDFB9C 1px, transparent 0);
+    /* background-image: radial-gradient(#BDFB9C 1px, transparent 0);
     background-size: 5px 5px;
-    background-position: -19px -19px;
+    background-position: -19px -19px; */
 }
 
 .yellow {
     background-color: #BDFB9C;
-    background-image: radial-gradient(#5353F5 1px, transparent 0);
+    /* background-image: radial-gradient(#5353F5 1px, transparent 0);
     background-size: 5px 5px;
-    background-position: -19px -19px;
+    background-position: -19px -19px; */
 }
 
 .profile {
@@ -61,7 +61,8 @@ h1 {
     font-size: 20px;
     margin-left: 20%;
     margin-top: -16%;
-    font-weight:lighter ;
+    font-weight:lighter;
+    width: 500px;
 }
 
 .para2 {
@@ -70,6 +71,50 @@ h1 {
     height: 200px;
     width: 500px;
     margin-left: 20%;
-    display:flex;
-    padding: 0px;
+    display: flex;
+}
+
+@media (max-width: 1200px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    h1 {
+        margin-top: 10%;
+    }
+
+    .profile {
+        height: 200px;
+        width: 200px;
+        border: 20px solid #BDFB9C;
+        padding: 0;
+        box-shadow: 0px 0px 0px 20px #5353F5;
+        position: relative;
+        border-radius: 50%;
+        margin-left: 35%;
+        margin-top: -100px;
+    }
+
+    .para1 {
+        color: #BDE9E7;
+        font-size: 30px;
+        margin-left: 20%;
+        margin-top: -16%;
+        font-weight:lighter;
+        width: 800px;
+    }
+
+    .para2 {
+        color: #BDFB9C;
+        font-size: 25px;
+        height: 200px;
+        width: 800px;
+        margin-left: 20%;
+        display: flex;
+        gap: 25px;
+        flex-shrink: inherit;
+    }
+
 }
