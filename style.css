@@ -202,11 +202,11 @@ h1 {
         color: #BDFB9C;
         font-size: 15px;
         height: 200px;
-        width: 300px;
+        width: 250px;
         margin-left: 15%;
         display: inline-block;
         gap: 25px;
-        margin-bottom: 25px;
+        margin-bottom: 60px;
     }
 
 }
